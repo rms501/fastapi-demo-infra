@@ -1,0 +1,6 @@
+# Required
+
+project = "dev"
+
+# Optional
+# environment_id = "YOUR ENVIRONMENT ID"
