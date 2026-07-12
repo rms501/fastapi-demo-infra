@@ -1,8 +1,8 @@
 module "db" {
   source = "./modules/db"
 
-  name                   = local.database
-  database_name          = local.database
+  name                   = "${var.project}-db"
+  database_name          = "${var.project}_db"
   plan                   = "free"
   region                 = "ohio"
   database_version       = "18"
