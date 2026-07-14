@@ -1,5 +1,9 @@
 # Required
 project = "dev"
+render_owner_id = "YOUR RENDER OWNER ID"
+render_api_key = "YOUR RENDER API KEY"
+container_image_url = "YOUR CONTAINER IMAGE URL"
+github_owner = "YOUR GITHUB OWNER"
 
 # Optional
-# environment_id = "YOUR ENVIRONMENT ID"
+# render_environment_id = "YOUR RENDER ENVIRONMENT ID"
