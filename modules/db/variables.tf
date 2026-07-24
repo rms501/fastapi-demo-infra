@@ -22,3 +22,19 @@ variable "environment_id" {
   type = string
   default = null
 }
+
+variable "owner" {
+  type = string
+}
+
+variable "token" {
+  type = string
+}
+
+variable "repository" {
+  type = string
+}
+
+variable "secret_name" {
+  type = string
+}

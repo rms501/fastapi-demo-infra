@@ -5,10 +5,12 @@ resource "render_web_service" "main" {
   environment_id = var.environment_id
 
   runtime_source = {
-    image = runtime_source_image
+    image = {
+      image_url = var.runtime_source_image
+    }
   }
 
-  env_vars {
-    "DATABASE_URL" = { value = "" }
+  env_vars = {
+    DATABASE_URL = { value = var.database_url }
   }
 }

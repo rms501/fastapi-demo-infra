@@ -19,6 +19,6 @@ variable "container_image_url" {
   type = string
 }
 
-variable "github_owner" {
+variable "github_token" {
   type = string
 }

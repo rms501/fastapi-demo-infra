@@ -18,3 +18,7 @@ variable "environment_id" {
 variable "runtime_source_image" {
   type = string
 }
+
+variable "database_url" {
+  type = string
+}

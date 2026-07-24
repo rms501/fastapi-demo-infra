@@ -17,4 +17,9 @@ module "api" {
   region               = local.region
   environment_id       = var.render_environment_id
   runtime_source_image = var.container_image_url
+  database_url         = module.db.internal_database_url
+  owner                = "rms501"
+  repository           = "fastapi-demo"
 }
+
+module "github" {}

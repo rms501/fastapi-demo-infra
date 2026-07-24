@@ -3,5 +3,9 @@ terraform {
     render = {
       source  = "render-oss/render"
     }
+
+    github = {
+      source  = "integrations/github"
+    }
   } 
 }
